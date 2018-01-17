@@ -16,6 +16,6 @@ Steps to run "Vacation Tracker":
 	user: test2@mail.com
 	pass: 1234
 
-P.S. Forgot password module works, but not included to the code
-	forgotPass module here  
+P.S. Forgot password module works, but not included to the code.
+	ForgotPass module here  
 	:\test\server\send_email.js
