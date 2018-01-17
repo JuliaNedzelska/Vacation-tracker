@@ -1,0 +1,32 @@
+/* ===================================================================
+ *  buttons
+ *
+ * ------------------------------------------------------------------- */
+
+.button
+	display: inline-block
+	background: $highlight
+	font-family: "mullerbold", sans-serif
+	font-size: 1.5rem
+	height: 3rem
+	line-height: calc(3.4rem - .6rem)
+	padding: 0.2rem 3rem
+	margin: 0
+	cursor: pointer
+	text-align: center
+	white-space: nowrap
+	border-radius: 3rem
+	border: 2px solid $highlight
+	-webkit-transition: all 0.3s ease-in-out
+	transition: all 0.3s ease-in-out
+
+	&:hover
+		background: $white
+		border: 2px solid $highlight
+
+		a
+			color: $highlight	
+
+	a
+		text-decoration: none
+		color: $white

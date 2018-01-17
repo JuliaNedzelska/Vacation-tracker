@@ -1,0 +1,72 @@
+
+@font-face {
+    font-family: 'mullerbold';
+    src: url('mullerbold-webfont.woff2') format('woff2'),
+         url('mullerbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mullerbold_italic';
+    src: url('mullerbolditalic-webfont.woff2') format('woff2'),
+         url('mullerbolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mullerlight';
+    src: url('mullerlight-webfont.woff2') format('woff2'),
+         url('mullerlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mullerlight_italic';
+    src: url('mullerlightitalic-webfont.woff2') format('woff2'),
+         url('mullerlightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mullerextrabold';
+    src: url('mullerextrabold-webfont.woff2') format('woff2'),
+         url('mullerextrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mullerextrabold_italic';
+    src: url('mullerextrabolditalic-webfont.woff2') format('woff2'),
+         url('mullerextrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mullerregular_italic';
+    src: url('mullerregularitalic-webfont.woff2') format('woff2'),
+         url('mullerregularitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'muller_regularregular';
+    src: url('mullerregular-webfont.woff2') format('woff2'),
+         url('mullerregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

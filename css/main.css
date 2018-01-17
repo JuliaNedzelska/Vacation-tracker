@@ -1,0 +1,488 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@import url(vendor/forms-nr-min.css);
+@import url(fonts/_fonts.css);
+@import url(font-awesome/css/font-awesome.min.css);
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden],
+template {
+  display: none; }
+
+a {
+  background-color: transparent; }
+
+a:active,
+a:hover {
+  outline: 0; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b,
+strong {
+  font-weight: bold; }
+
+dfn {
+  font-style: italic; }
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+small {
+  font-size: 80%; }
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 1em 40px; }
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+pre {
+  overflow: auto; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+button {
+  overflow: visible; }
+
+button,
+select {
+  text-transform: none; }
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+input {
+  line-height: normal; }
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+legend {
+  border: 0;
+  padding: 0; }
+
+textarea {
+  overflow: auto; }
+
+optgroup {
+  font-weight: bold; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+/* ===================================================================
+ *  buttons
+ *
+ * ------------------------------------------------------------------- */
+.button {
+  display: inline-block;
+  background: #3eaef5;
+  font-family: "mullerbold", sans-serif;
+  font-size: 1.5rem;
+  height: 3rem;
+  line-height: calc(3.4rem - .6rem);
+  padding: 0.2rem 3rem;
+  margin: 0;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 3rem;
+  border: 2px solid #3eaef5;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  .button:hover {
+    background: #fff;
+    border: 2px solid #3eaef5; }
+    .button:hover a {
+      color: #3eaef5; }
+  .button a {
+    text-decoration: none;
+    color: #fff; }
+
+.row {
+  width: 94%;
+  max-width: 1170px;
+  margin: 0 auto; }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.bgrid {
+  float: left; }
+
+body {
+  background: #e6e6e6; }
+
+.login-container {
+  height: 100%;
+  max-width: 560px;
+  min-width: 320px;
+  margin-top: 10rem;
+  padding: 3rem 0;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 10px 39px 7px rgba(36, 102, 143, 0.4);
+  -moz-box-shadow: 0px 10px 39px 7px rgba(36, 102, 143, 0.4);
+  box-shadow: 0px 10px 39px 7px rgba(36, 102, 143, 0.4); }
+  .login-container h1 {
+    font-family: "mullerbold", sans-serif;
+    color: #3e3e3e;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center; }
+  .login-container h3 {
+    font-family: "mullerlight", sans-serif;
+    color: #3e3e3e;
+    text-align: center; }
+
+.input-field {
+  display: block;
+  margin: 0 auto;
+  background-color: #e6e6e6;
+  font-family: "mullerlight", sans-serif;
+  color: #3e3e3e;
+  border: none;
+  border-radius: 35px;
+  padding: 1.5rem 3rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  outline: none; }
+
+span a {
+  color: #3eaef5;
+  font-family: "mullerlight", sans-serif;
+  font-size: 0.9rem; }
+
+.check_container {
+  display: table;
+  margin: 0 auto; }
+
+/* -------------------------------------------------------------------
+ * checkbox
+ * custom
+ * ------------------------------------------------------------------- */
+.container {
+  padding-right: 1rem;
+  font-family: "mullerlight", sans-serif;
+  font-size: 0.9rem;
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Hide the browser's default checkbox */
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */ }
+  .container input {
+    position: absolute;
+    opacity: 0; }
+  .container:hover input ~ .checkmark {
+    background-color: #ccc; }
+  .container input:checked ~ .checkmark {
+    background-color: #3eaef5; }
+  .container input:checked ~ .checkmark:after {
+    display: inline-block; }
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); }
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 25px; }
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none; }
+
+/* -------------------------------------------------------------------
+ * button
+ * login
+ * ------------------------------------------------------------------- */
+.button.login {
+  display: table;
+  margin: 0 auto;
+  margin-top: 1rem; }
+
+body {
+  background: #e6e6e6; }
+
+#header {
+  width: 100%;
+  height: 70px;
+  background: #3f4f5f;
+  font-family: "mullerlight", sans-serif; }
+  #header div {
+    text-align: right;
+    margin-right: 2.5rem; }
+    #header div span {
+      color: #fff;
+      line-height: 70px;
+      font-size: 1rem;
+      text-decoration: none; }
+
+#header .log-out > span {
+  cursor: pointer; }
+
+/* -------------------------------------------------------------------
+ * left 	vacation list
+ * block
+ * ------------------------------------------------------------------- */
+.left-block {
+  padding: 2rem 0 0 3rem;
+  width: 60%;
+  float: left;
+  box-sizing: border-box; }
+
+.yearly-filter {
+  height: 2rem;
+  display: block;
+  position: relative; }
+  .yearly-filter .yearly-filter-selector {
+    position: absolute;
+    right: 0; }
+    .yearly-filter .yearly-filter-selector form {
+      display: inline-block; }
+
+.vacansy-list-container {
+  min-height: 80px;
+  border-radius: 5px;
+  font-family: "mullerlight", sans-serif;
+  background: #fff;
+  position: relative;
+  margin-top: 1rem; }
+  .vacansy-list-container:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 100%;
+    background: #3f4f5f;
+    border-radius: 5px 0 0 5px;
+    vertical-align: middle; }
+  .vacansy-list-container .content {
+    line-height: 80px;
+    margin-left: 2rem; }
+    .vacansy-list-container .content div {
+      display: inline-block;
+      padding-right: 2rem; }
+  .vacansy-list-container .vacancy-date {
+    font-family: "mullerbold", sans-serif;
+    color: #3e3e3e;
+    display: inline-block;
+    width: 8rem; }
+  .vacansy-list-container .vacancy-days {
+    display: inline-block;
+    width: 8rem; }
+
+.vacansy-list-container.last {
+  position: relative; }
+  .vacansy-list-container.last div.vacansy-icons {
+    position: absolute;
+    right: 1rem;
+    top: 1rem; }
+
+div > .vacansy-icons {
+  float: right; }
+
+/* -------------------------------------------------------------------
+ * right 	add vacation
+ * block
+ * ------------------------------------------------------------------- */
+.right-block {
+  float: right;
+  padding: 2rem 3rem 0 0;
+  width: 36%;
+  font-family: "mullerlight", sans-serif;
+  box-sizing: border-box; }
+
+.add-vacation {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  background: #fff;
+  position: relative; }
+  .add-vacation:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    background: #3eaef5;
+    border-radius: 5px 5px 0 0; }
+
+.available-vacation-days {
+  padding-top: 3.5rem;
+  font-family: "mullerbold", sans-serif;
+  color: #3e3e3e;
+  text-align: center; }
+  .available-vacation-days #available-days {
+    font-size: 5rem; }
+  .available-vacation-days span {
+    font-size: 1rem;
+    font-family: "mullerlight", sans-serif; }
+
+.add-vacation-select-date {
+  background: #fff;
+  padding: 1rem; }
+  .add-vacation-select-date .startDay span {
+    display: inline-block;
+    width: 5rem; }
+  .add-vacation-select-date .endDay span {
+    display: inline-block;
+    width: 5rem; }
+  .add-vacation-select-date .comment {
+    padding-top: 1rem; }
+  .add-vacation-select-date div {
+    padding-top: 1rem; }
+
+/* -------------------------------------------------------------------
+ * right 	button +
+ * block
+ * ------------------------------------------------------------------- */
+.add-vacancy-button-container {
+  width: 100%;
+  height: 100px;
+  border-radius: 0 0 5px 5px;
+  background: #fafafa;
+  padding-top: 2rem; }
+
+.button.button-green {
+  display: table;
+  margin: 0 auto; }
+
+/* -------------------------------------------------------------------
+ * right 	select day
+ * block
+ * ------------------------------------------------------------------- */
+
+/*# sourceMappingURL=main.css.map */

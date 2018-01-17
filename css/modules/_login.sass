@@ -1,0 +1,126 @@
+body
+	background: $light_grey
+
+.login-container
+	height: 100%
+	max-width: 560px
+	min-width: 320px
+	margin-top: 10rem
+	padding: 3rem 0 
+	background-color: $white
+	border-radius: 5px
+	-webkit-box-shadow: 0px 10px 39px 7px rgba(36,102,143,0.4)
+	-moz-box-shadow: 0px 10px 39px 7px rgba(36,102,143,0.4)
+	box-shadow: 0px 10px 39px 7px rgba(36,102,143,0.4)
+
+	h1
+		font-family: "mullerbold", sans-serif
+		color: $dark_grey
+		font-size: 2rem
+		line-height: 1.5
+		text-transform: uppercase
+		letter-spacing: .2rem
+		text-align: center
+
+	h3
+		font-family: "mullerlight", sans-serif
+		color: $dark_grey
+		text-align: center
+
+.input-field
+	display: block
+	margin: 0 auto
+	background-color: $light-grey
+	font-family: "mullerlight", sans-serif
+	color: $dark_grey
+	border: none
+	border-radius: 35px
+	padding: 1.5rem 3rem
+	margin-bottom: 1.5rem
+	margin-top: 1.5rem
+	outline: none
+
+span
+	a
+		color: $highlight
+		font-family: "mullerlight", sans-serif
+		font-size: 0.9rem
+
+.check_container
+	display: table
+	margin: 0 auto
+
+/* ------------------------------------------------------------------- 
+ * checkbox
+ * custom
+ * ------------------------------------------------------------------- */
+
+.container
+	padding-right: 1rem
+	font-family: "mullerlight", sans-serif
+	font-size: 0.9rem
+	display: inline-block
+	position: relative
+	padding-left: 35px
+	margin-bottom: 12px
+	cursor: pointer
+	-webkit-user-select: none
+	-moz-user-select: none
+	-ms-user-select: none
+	user-select: none
+
+	/* Hide the browser's default checkbox */
+	input
+		position: absolute
+		opacity: 0
+
+	/* On mouse-over, add a grey background color */
+	&:hover input ~ .checkmark
+		background-color: #ccc
+
+	/* When the checkbox is checked, add a blue background */
+	input:checked ~ .checkmark
+		background-color: $highlight
+
+	input:checked ~ .checkmark:after
+		display: inline-block
+
+	.checkmark:after
+		left: 9px
+		top: 5px
+		width: 5px
+		height: 10px
+		border: solid white
+		border-width: 0 3px 3px 0
+		-webkit-transform: rotate(45deg)
+		-ms-transform: rotate(45deg)
+		transform: rotate(45deg)
+
+/* Create a custom checkbox */
+.checkmark
+	position: absolute
+	top: 0
+	left: 0
+	height: 25px
+	width: 25px
+	background-color: #eee
+	border-radius: 25px 
+
+.checkmark:after
+	content: ""
+	position: absolute
+	display: none
+
+/* ------------------------------------------------------------------- 
+ * button
+ * login
+ * ------------------------------------------------------------------- */
+
+.button.login
+	display: table
+	margin: 0 auto
+	margin-top: 1rem
+
+
+
+

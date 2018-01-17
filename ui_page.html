@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<!--- mobile specific metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>UI Page</title>
+
+	<!--- CSS
+	================================================== -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<!--- header
+	================================================== -->
+	<header id="header">
+
+		<div class="row">
+			<div class="log-out" id="logOut">
+				<span>Log out</span>
+				<span class="icon"><i class="fa fa-sign-out" aria-hidden="true"></i></span>		
+			</div>
+		</div>
+
+	</header> <!-- end header -->
+
+	<!--- content
+	================================================== -->
+
+	<section id="content" class="row">
+
+		<!--- left-block
+		================================================== -->
+		
+		<div class="left-block">
+
+			<div class="yearly-filter">
+
+				<div class="yearly-filter-selector">
+
+					<span>select year</span>
+
+					<form class="pure-form pure-form-stacked">
+						<select name="" id="vacancy-filter-year">
+							<option value="2017">2017</option>
+							<option value="2018">2018</option>
+						</select>
+					</form>
+
+				</div>
+
+			</div>
+
+			<div id="vacancy-list">
+
+			</div>
+
+		</div> <!-- end left vacancy list -->
+		
+		<!--- add vacancy block
+		================================================== -->
+		<div class="right-block">
+
+			<div class="add-vacation">
+
+				<div class="available-vacation-days">
+					<div class="available-days" id="available-days">21</div>
+					<span>days available</span>
+				</div>
+
+			</div>
+
+			<div class="add-vacation-select-date">
+				<div class="startDay">
+					<span>Start day</span>
+					<input id="startDay" type="date"/>
+				</div>
+				<div class="endDay">
+					<span>End day</span>
+					<input id="endDay" type="date"/>
+				</div>
+				<div class="comment">
+					<textarea name="" id="comment" cols="36" rows="4" placeholder="Leave your comment"></textarea>
+				</div>
+			</div>
+
+			<div class="add-vacancy-button-container">
+				
+				<div class="button button-green" id="addVacation">
+					<a href="" >Add vacation +</a>
+				</div>
+
+			</div>
+
+		</div> <!-- end vacancy block -->		
+
+	</section> <!-- end content -->
+
+	
+	<!--- JS
+	================================================== -->
+	<script src="js/utils.js"></script>
+	<script src="js/model.js"></script>
+	<script src="js/view.js"></script>
+	<script src="js/controller.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
